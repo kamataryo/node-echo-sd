@@ -1,0 +1,21 @@
+{
+  "name": "echo-sd",
+  "version": "1.0.1",
+  "description": "npm wrapper for echo-sd command",
+  "bin": "./echo-sd",
+  "scripts": {
+    "build": "./bin/build.sh",
+    "test": "npm run build",
+    "prepublish": "npm run build"
+  },
+  "author": "kamataryo <mugil.cephalus+github.com@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamataryo/node-echo-sd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kamataryo/node-echo-sd/issues"
+  },
+  "homepage": "https://github.com/kamataryo/node-echo-sd#readme"
+}
