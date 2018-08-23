@@ -1,6 +1,6 @@
 {
   "name": "echo-sd",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "npm wrapper for echo-sd command",
   "bin": "./echo-sd",
   "scripts": {
