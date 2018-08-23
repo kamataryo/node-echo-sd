@@ -6,7 +6,7 @@
   "scripts": {
     "build": "./bin/build.sh",
     "test": "./bin/test.sh",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build && npm test"
   },
   "author": "kamataryo <mugil.cephalus+github.com@gmail.com>",
   "license": "GPL-3.0-or-later",
