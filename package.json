@@ -2,10 +2,11 @@
   "name": "echo-sd",
   "version": "1.0.4",
   "description": "npm wrapper for echo-sd command",
-  "bin": "./echo-sd",
+  "main": "index.js",
+  "bin": "echo-sd",
   "scripts": {
-    "build": "./bin/build.sh",
-    "test": "./bin/test.sh",
+    "build": "bin/build.sh",
+    "test": "bin/test.sh && node index.test.js",
     "prepublish": "npm run build && npm test"
   },
   "author": "kamataryo <mugil.cephalus+github.com@gmail.com>",
