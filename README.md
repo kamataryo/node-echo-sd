@@ -6,9 +6,40 @@ An `echo-sd` wrapper for npm.
 
 ```shell
 $ npx echo-sd
-_人人人人人人_
-> 突然の死 <
-￣Y^Y^Y^Y^Y^Y￣
+＿人人人人人人＿
+＞　突然の死　＜
+￣Y^Y^Y^Y^Y^Y^￣
+```
+
+```shell
+$ npm install echo-sd --global # or yarn add echo-sd --global
+$ echo-sd
+＿人人人人人人＿
+＞　突然の死　＜
+￣Y^Y^Y^Y^Y^Y^￣
+```
+
+```javascript
+const echoSd = require('echo-sd')
+echoSd(
+  '--stress',
+  '仕事のストレス',
+  'echo-sdを改造',
+  'ストレス解消',
+  '仕事のストレス',
+  'echo-sdを改造'
+).then(result => console.log(result))
+// 仕事のストレス
+// 　　　　↘
+// 　　　echo-sdを改造
+// 　　　　↙
+// ストレス解消
+// 　　　　↘
+// 　　　仕事のストレス
+// 　　　　↙
+// ＿人人人人人人人人＿
+// ＞　echo-sdを改造　＜
+// ￣Y^Y^Y^Y^Y^Y^Y^Y^￣
 ```
 
 `echo-sd` is a cool formatted message generator created by [SATOH Fumiyasu @ OSS Technology Corp., Japan](https://github.com/fumiyas/home-commands/blob/master/echo-sd).
