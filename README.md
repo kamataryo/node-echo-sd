@@ -11,7 +11,7 @@ _人人人人人人_
 ￣Y^Y^Y^Y^Y^Y￣
 ```
 
-## features
+## requirements and features
 
 see [>突然の死<ジェネレーター - 拡張 POSIX シェルスクリプト Advent Calendar 2013 - ダメ出し Blog](https://fumiyas.github.io/2013/12/25/echo-sd.sh-advent-calendar.html)
 
