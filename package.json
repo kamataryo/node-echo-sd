@@ -5,7 +5,7 @@
   "bin": "./echo-sd",
   "scripts": {
     "build": "./bin/build.sh",
-    "test": "npm run build",
+    "test": "./bin/test.sh",
     "prepublish": "npm run build"
   },
   "author": "kamataryo <mugil.cephalus+github.com@gmail.com>",
